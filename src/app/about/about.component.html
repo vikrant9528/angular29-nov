@@ -1,0 +1,7 @@
+<h1>This is about component</h1>
+<button><a routerLink="aboutus">About us</a></button>
+<button><a routerLink="aboutme">About me</a></button>
+<ul *ngFor="let item of userData">
+    <li>{{item.name}}</li>
+</ul>
+<router-outlet></router-outlet>

@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+;
+::ng-deep .mat-form-field-label {
+    color: #ff5722;  // Change label color
+    font-weight: bold;
+    background-color: green;
+  }
+  ::ng-deep .mat-input-element {
+    border-radius: 4px;  // Adjust the input's border radius
+    padding: 10px;
+    border: 2px solid #4caf50;  // Add a custom border color
+  }
+  ::ng-deep .mat-form-field {
+    border-radius: 8px;
+    background-color: #f0f0f0;  // Custom background for the input field
+  }
